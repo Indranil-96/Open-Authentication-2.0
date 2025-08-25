@@ -1,4 +1,4 @@
-npm i => to install all dependencies
+npm i -> to install all dependencies
 npm run dev -> to run frontend application
 npm start -> to run the backend application
 
