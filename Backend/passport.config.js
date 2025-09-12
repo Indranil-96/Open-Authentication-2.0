@@ -6,7 +6,7 @@ import MDB from "./LooseSchema.js";
 
 
 passport.serializeUser((user, cb) => {
-    cb(null, user.id);
+    cb(null, user);
 });
 
 passport.deserializeUser((id, cb) => {
